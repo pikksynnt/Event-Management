@@ -40,3 +40,15 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# PHP development/testing artifacts — DO NOT commit to production
+/scratch/
+scratch/
+cookie.txt
+*.cookie.txt
+run_tests.php
+
+# PHP logs
+php_errorlog
+php-error.log
+error_log
