@@ -71,8 +71,7 @@ export default function LoginPage() {
                   type="email"
                   autoComplete="email"
                   required
-                  defaultValue="manager@eo.com"
-                  placeholder="manager@eo.com"
+                  placeholder="email@domain.com"
                   className="block w-full rounded-lg border border-slate-300 pl-10 pr-3 py-2 text-sm text-slate-900 placeholder-slate-400 focus:border-slate-900 focus:outline-none focus:ring-1 focus:ring-slate-900 transition-colors"
                 />
               </div>
@@ -95,7 +94,6 @@ export default function LoginPage() {
                   type="password"
                   autoComplete="current-password"
                   required
-                  defaultValue="password123"
                   placeholder="••••••••"
                   className="block w-full rounded-lg border border-slate-300 pl-10 pr-3 py-2 text-sm text-slate-900 placeholder-slate-400 focus:border-slate-900 focus:outline-none focus:ring-1 focus:ring-slate-900 transition-colors"
                 />
@@ -113,15 +111,7 @@ export default function LoginPage() {
             </Button>
           </form>
 
-          {/* Quick Info Box for development / review */}
-          <div className="mt-6 pt-5 border-t border-slate-100">
-            <p className="text-xs text-slate-500 font-medium text-center">
-              Akun Seed Demo:
-            </p>
-            <p className="text-xs text-slate-600 text-center font-mono mt-0.5">
-              manager@eo.com / password123
-            </p>
-          </div>
+
         </div>
       </div>
     </div>
